@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#e8f0ff"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/filterNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/filter_label"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/filterProductNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterNameTV"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/product_name_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/filterProductNameET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterNameTV"
+        android:layout_toRightOf="@id/filterProductNameTV"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/filterProductCodeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterProductNameTV"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/product_code_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/filterProductCodeET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterProductNameTV"
+        android:layout_toRightOf="@id/filterProductCodeTV"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/filterCustomerNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterProductCodeTV"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/customer_name_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/filterCustomerNameET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterProductCodeTV"
+        android:layout_toRightOf="@id/filterCustomerNameTV"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/filterSupplierNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterCustomerNameTV"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/supplier_name_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/filterSupplierNameET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterCustomerNameET"
+        android:layout_toRightOf="@id/filterSupplierNameTV"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/selectDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filterSupplierNameTV"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/select_date_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/fromDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectDateTV"
+        android:layout_marginLeft="20dp"
+        android:text="@string/from_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/toDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectDateTV"
+        android:layout_marginLeft="220dp"
+        android:text="@string/to_label"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/fromDateET"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fromDateTV"
+        android:layout_marginLeft="20dp"
+        android:clickable="true"
+        android:focusable="false" />
+
+    <EditText
+        android:id="@+id/toDateET"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toDateTV"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:focusable="false" />
+
+
+    <Button
+        android:id="@+id/okBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fromDateET"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/ok_label" />
+
+    <Button
+        android:id="@+id/cancelBT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toDateET"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/cancel_label" />
+
+
+</RelativeLayout>

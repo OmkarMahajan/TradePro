@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Trade Pro Report</string>
+    <string name="password_label">Password</string>
+    <string name="product_name_label">Product Name</string>
+    <string name="purchase_price_label">Purchase Price</string>
+    <string name="sales_price_label">Sales Price</string>
+    <string name="safety_stock_label">Safety Stock</string>
+    <string name="available_stock_label">Available Stock</string>
+    <string name="tax_name_label">Tax Name</string>
+    <string name="search_label">Search</string>
+    <string name="select_date_label">Select Date</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="to_label">To :- </string>
+    <string name="from_label">From :-</string>
+    <string name="report_str">Reports</string>
+    <string name="support_str">Support</string>
+    <string name="Sells">Sells</string>
+    <string name="Purchases">Purchases</string>
+    <string name="version">Version 1.0.0 </string>
+    <string name="passwordhint">Password </string>
+    <string name="userhint"> Username</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="home_label">Home</string>
+    <string name="about_us_label">About Us</string>
+    <string name="contact_us_label">Contact Us</string>>
+    <string name="passLB"> Forgot Password </string>>
+    <string name="passTV"> Enter Mobile No. or Email </string>>
+    <string name="passBT"> Submit </string>>
+    <string name="forpass"> Forgot Password </string>
+    <string name="filter_label">Filter</string>
+    <string name="product_code_label">Product Code</string>
+    <string name="customer_name_label">Customer Name</string>
+    <string name="supplier_name_label">Supplier Name</string>>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <ImageView
+        android:id="@+id/IrisdameLogo"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/irisdamelogo" />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user" />
+
+    <EditText
+        android:id="@+id/inputEmailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapemail"
+        android:drawablePadding="100dp"
+        android:hint="@string/userhint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/inputPasswordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shapemail"
+        android:drawablePadding="100dp"
+        android:hint="@string/passwordhint"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/loginBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shapoelogin"
+        android:padding="15dp"
+        android:shadowColor="@android:color/transparent"
+        android:text="Log In" />
+
+    <TextView
+        android:id="@+id/newpassTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:text="@string/forpass"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white_greyish"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
